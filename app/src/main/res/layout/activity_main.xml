@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    >
+    <com.android.linedegreeview.view.LineDegree
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:degreeCenterText="12:00"
+        app:degreeCount="48"
+        app:degreeEndText="23:30"
+        app:degreeLineColor="#3073F8"
+        app:degreeStartText="0:00"
+        app:degreeTextColor="@android:color/darker_gray" />
+
+    <com.android.linedegreeview.view.LineDegree
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:degreeCount="16"
+        app:degreeStartText="0.5"
+        app:degreeCenterText=""
+        app:degreeEndText="8.0"
+        app:degreeLineColor="#3073F8"
+        app:degreeIsShortLineStartY="true"
+        app:degreeTextColor="@android:color/darker_gray" />
+</LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LineDegree">
+        <attr name="degreeCount" format="integer" />
+        <attr name="degreeLineColor" format="color" />
+        <attr name="degreeTextColor" format="color" />
+        <attr name="degreeIsShortLineStartY" format="boolean" />
+        <attr name="degreeStartText" format="string" />
+        <attr name="degreeCenterText" format="string" />
+        <attr name="degreeEndText" format="string" />
+    </declare-styleable>
+</resources>
